@@ -11,7 +11,6 @@ const btnJ0 = document.getElementById("btnJ0");
 const btnCL = document.getElementById("btnCL");
 const btnCN = document.getElementById("btnCN");
 
-
 const letrasHTML = document.getElementById("letrasHTML");
 const numerosHTML = document.getElementById("numerosHTML");
 
@@ -47,28 +46,28 @@ function pongaLetraNumero(boton) {
     }
   } else {
     if (boton == 1 && boton == numeros.length + 1) {
-        numeros = numeros + "1";
-      } else if (boton == 2 && boton == numeros.length + 1) {
-        numeros = numeros + "2";
-      } else if (boton == 3 && boton == numeros.length + 1) {
-        numeros = numeros + "3";
-      } else if (boton == 4 && boton == numeros.length + 1) {
-        numeros = numeros + "4";
-      } else if (boton == 5 && boton == numeros.length + 1) {
-        numeros = numeros + "5";
-      } else if (boton == 6 && boton == numeros.length + 1) {
-        numeros = numeros + "6";
-      } else if (boton == 7 && boton == numeros.length + 1) {
-        numeros = numeros + "7";
-      } else if (boton == 8 && boton == numeros.length + 1) {
-        numeros = numeros + "8";
-      } else if (boton == 9 && boton == numeros.length + 1) {
-        numeros = numeros + "9";
-      } else if (boton == 10 && boton == numeros.length + 1) {
-        numeros = numeros + "0";
-      } else {
-        alert("Numero incorrecto.");
-      }
+      numeros = numeros + "1";
+    } else if (boton == 2 && boton == numeros.length + 1) {
+      numeros = numeros + "2";
+    } else if (boton == 3 && boton == numeros.length + 1) {
+      numeros = numeros + "3";
+    } else if (boton == 4 && boton == numeros.length + 1) {
+      numeros = numeros + "4";
+    } else if (boton == 5 && boton == numeros.length + 1) {
+      numeros = numeros + "5";
+    } else if (boton == 6 && boton == numeros.length + 1) {
+      numeros = numeros + "6";
+    } else if (boton == 7 && boton == numeros.length + 1) {
+      numeros = numeros + "7";
+    } else if (boton == 8 && boton == numeros.length + 1) {
+      numeros = numeros + "8";
+    } else if (boton == 9 && boton == numeros.length + 1) {
+      numeros = numeros + "9";
+    } else if (boton == 10 && boton == numeros.length + 1) {
+      numeros = numeros + "0";
+    } else {
+      alert("Numero incorrecto.");
+    }
   }
 
   letrasHTML.innerHTML = letras;
@@ -107,11 +106,11 @@ btnJ0.onclick = function () {
 };
 
 btnCL.onclick = function () {
-    letras = "";
-    letrasHTML.innerHTML= "";
-}
+  letras = "";
+  letrasHTML.innerHTML = "";
+};
 
 btnCN.onclick = function () {
-    numeros = "";
-    numerosHTML.innerHTML= "";
-}
+  numeros = "";
+  numerosHTML.innerHTML = "";
+};
